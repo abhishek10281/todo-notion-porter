@@ -1,0 +1,15 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.c-item {
+  border: none;
+  width: 100%;
+}
+
+.c-item-completed {
+  @extend .c-item;
+  text-decoration: line-through;
+}
